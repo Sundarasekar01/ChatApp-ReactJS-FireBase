@@ -252,32 +252,61 @@ Explanation :
 
 // RANDOM NUMBER GENERATOR
 
-const NUM1 = document.getElementById('num1');
-const NUM2 = document.getElementById('num2');
-const NUM3 = document.getElementById('num3');
-const GENERATE = document.getElementById('btn');
+// const NUM1 = document.getElementById('num1');
+// const NUM2 = document.getElementById('num2');
+// const NUM3 = document.getElementById('num3');
+// const GENERATE = document.getElementById('btn');
 
-const MIN = 23;
-const MAX = 45;
+// const MIN = 23;
+// const MAX = 45;
 
-let random1 = 0 ;
-let random2 = 0;
-let random3 = 0 ;
-
-
-GENERATE.onclick = function(){
-    random1 = Math.floor(Math.random() * MAX) + MIN ;
-    random2 = Math.floor(Math.random() * MAX) + MIN ;
-    random3 = Math.floor(Math.random() * MAX) + MIN ;
-    NUM1.textContent = random1;
-    NUM2.textContent = random2;
-    NUM3.textContent = random3;
-}
+// let random1 = 0 ;
+// let random2 = 0;
+// let random3 = 0 ;
 
 
+// GENERATE.onclick = function(){
+//     random1 = Math.floor(Math.random() * MAX) + MIN ;
+//     random2 = Math.floor(Math.random() * MAX) + MIN ;
+//     random3 = Math.floor(Math.random() * MAX) + MIN ;
+//     NUM1.textContent = random1;
+//     NUM2.textContent = random2;
+//     NUM3.textContent = random3;
+// }
 
 
 
-/* -------------------------------- Constants ------------------------------------------- */
 
 
+/* -------------------------------- IF Statement ------------------------------------------- */
+
+
+
+// IF STATEMENTS = if a condition is true, execute some code
+//                                   if not, do something else
+
+
+// const DATA = document.getElementById('text');
+// const SUBMIT = document.getElementById('submit');
+// const RESULT = document.getElementById('abc');
+
+// let age;
+
+// SUBMIT.onclick = function(){
+
+//     age=DATA.value;
+//     age=Number(age);
+
+//     if(age==18){
+//       RESULT.textContent = 'You are allowed';
+//     }
+//     else if(age< 18){
+//         RESULT.textContent = 'You are not allowed';
+//     }
+//     else if(age>18){
+//         RESULT.textContent = 'you are always welcome';
+//     }
+//     else{
+//         RESULT.textContent = 'something wrong';
+//     }
+// }
