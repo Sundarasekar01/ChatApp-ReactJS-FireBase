@@ -317,3 +317,96 @@ Explanation :
 /* -------------------------------- Checked Property ------------------------------------------- */
 
 
+// .checked = property that determines the checked state of an 
+//                     HTML checkbox or radio button element
+
+// const SUBSCRIBE = document.getElementById("subscribe");
+// const GPAY = document.getElementById("gpay");
+// const PHONEPAY = document.getElementById("phonepay");
+// const PAYTM = document.getElementById("paytm");
+// const SUBMIT = document.getElementById("submit");
+
+// const SUBRESULT = document.getElementById("message");
+// const PAYRESULT = document.getElementById("message2");
+
+// SUBMIT.onclick = function(){
+
+//     if(SUBSCRIBE.checked){
+//         SUBRESULT.textContent = `You are subscribed!`;
+//     }
+//     else{
+//         SUBRESULT.textContent = `You are NOT subscribed!`;
+//     }
+
+
+//     if(GPAY.checked){
+//         PAYRESULT.textContent = `You are paying with Gpay`;
+//     }
+//     else if(PHONEPAY.checked){
+//         PAYRESULT.textContent = `You are paying with Phonepay`;
+//     }
+//     else if(PAYTM.checked){
+//         PAYRESULT.textContent = `You are paying with Paytm`;
+//     }
+//     else{
+//         PAYRESULT.textContent = `You must select a payment type`;
+//     }
+// }
+
+
+
+
+
+/* -------------------------------- Ternary Operator ------------------------------------------- */
+
+
+// ternary operator = a shortcut to if{} and else{} statements
+//                                  helps to assign a variable based on a condition
+//                                  condition ? codeIfTrue : codeIfFalse;
+
+// let time = 9;
+// let greeting = time < 12 ? "Good morning!" : "Good afternoon!";
+// console.log(greeting);
+
+// let isStudent = false;
+// let message = isStudent ? "You are a student" : "You are NOT a student";
+// console.log(message);
+
+// let purchaseAmount = 20;
+// let discount = purchaseAmount >= 100 ? 10 : 0;
+// console.log(`Your total is $${purchaseAmount - purchaseAmount * (discount/100)}`);
+
+
+
+
+
+/* -------------------------------- Switch Statement ------------------------------------------- */
+
+
+// Switch = can be an efficient replacement to many else if statements
+
+// const MARK = "uhhu";
+// let message ; 
+
+// switch(true){
+
+//     case (MARK>50):
+//         message='pass';
+//         break;
+
+//     case (MARK<50):
+//         message='failed';
+//         break;
+
+//     default: 
+//         message="something wrong"    
+// }
+
+// console.log(message);
+
+
+
+
+/* -------------------------------- String Methods ------------------------------------------- */
+
+
