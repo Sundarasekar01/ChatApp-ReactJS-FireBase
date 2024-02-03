@@ -310,3 +310,10 @@ Explanation :
 //         RESULT.textContent = 'something wrong';
 //     }
 // }
+
+
+
+
+/* -------------------------------- Checked Property ------------------------------------------- */
+
+
