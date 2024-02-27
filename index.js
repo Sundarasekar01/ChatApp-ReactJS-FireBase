@@ -245,7 +245,6 @@ z = Math.sign(x);
 
 
 
-
 /* -------------------------------- Random Number Generator ------------------------------------------- */
 
 
@@ -274,40 +273,6 @@ const GENERATE = document.getElementById('btn');
 //     NUM3.textContent = random3;
 // }
 
-
-
-/* -------------------------------- IF Statement ------------------------------------------- */
-
-
-
-// IF STATEMENTS = if a condition is true, execute some code
-//                                   if not, do something else
-
-
-// const DATA = document.getElementById('text');
-// const SUBMIT = document.getElementById('submit');
-// const RESULT = document.getElementById('abc');
-
-// let age;
-
-// SUBMIT.onclick = function(){
-
-//     age=DATA.value;
-//     age=Number(age);
-
-//     if(age==18){
-//       RESULT.textContent = 'You are allowed';
-//     }
-//     else if(age< 18){
-//         RESULT.textContent = 'You are not allowed';
-//     }
-//     else if(age>18){
-//         RESULT.textContent = 'you are always welcome';
-//     }
-//     else{
-//         RESULT.textContent = 'something wrong';
-//     }
-// }
 
 
 
