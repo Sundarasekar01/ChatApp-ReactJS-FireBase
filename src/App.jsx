@@ -1,11 +1,12 @@
-import React from 'react';
-
 const App = () => {
   return (
-    <div className='App'>
-      <img src="/maintenance.png" alt="" />
+    <div className=''>
+
+      <img width={'1300px'} src="public/maintenance.webp" alt="" />
+    
     </div>
-  );
+
+  )
 }
 
-export default App;
+export default App
