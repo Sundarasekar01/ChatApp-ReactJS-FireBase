@@ -1,6 +1,7 @@
 const App = () => {
+
   return (
-    <div className=''>
+    <div >
 
       <img width={'1300px'} src="public/maintenance.webp" alt="" />
     
