@@ -1,7 +1,18 @@
+import Chat from './components/chat/Chat.jsx'
+import Details from './components/details/Details.jsx'
+import List from './components/list/List.jsx'
+
+
 const App = () => {
 
   return (
-    <div className="container" >Hello</div>
+    <div className="container" >
+
+  <List/>
+  <Chat/>
+  <Details/>
+
+    </div>
 
   )
 }
